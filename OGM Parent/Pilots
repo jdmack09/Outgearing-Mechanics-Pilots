@@ -19,17 +19,18 @@
 </div>
 
 <div class="content">
-  <h2>Pilots in the Corporation</h2>
+  <h2>Pilots of the Corporation</h2>
   
   <div class="row">
    <div class="column">
   <div class="card">
   <img src="Images\Alveras.jpg" alt="Alveras Enaka" style="width:100%">
-  <h1>Alveras </h1>
-  <p class="title">CEO and Founder</p>
+  <h1>Alveras Enaka</h1>
+  <p class="title">Dad</p>
   <p>Eve University</p>
   <p>Heals +14's with undergeared Shaman</p>
   <p>3000io No More, No Less</p>
+  <p>Never came back with the Milk</p>
   <a href="Contact" class="Button">Contact</a>
    </div>
   </div>
@@ -39,11 +40,11 @@
   <div class="card">
   <img src="Images\Tivy.jpg" alt="Bee" style="width:100%">
   <h1>Tivy</h1>
-  <p class="title">COO</p>
+  <p class="title">Full-Time Toker</p>
   <p>Eve University</p>
   <p>He's Mad!</p>
-  <p>Warlock Extrodinare</p>
-  <p>Worm Hole Resident</p>
+  <p>Is Free use</p>
+  <p>Up in your Worm Hole</p>
   <a href="Contact" class="Button">Contact</a>
    </div>
   </div>
@@ -53,8 +54,11 @@
   <div class="card">
   <img src="Images\Bee.jpg" alt="Bee" style="width:100%"></img>
   <h1>Beewithanitch</h1>
-  <p class="title">CFO</p>
+  <p class="title">Professional Degen</p>
   <p>Eve University</p>
+  <p>An Anchor</p>
+  <p>Good at Calculations, Bad at Math</p>
+  <p></p>
   <a href="Contact" class="Button">Contact</a>
    </div>
   </div>
@@ -62,10 +66,13 @@
   <div class="row">
    <div class="column">
   <div class="card">
-  <img src="Images\Bee.jpg" alt="Bee" style="width:100%"></img>
+  <img src="Images\Psy.jpg" alt="ThatPsyGuy" style="width:100%"></img>
   <h1>ThatPsyGuy</h1>
-  <p class="title">CFO</p>
+  <p class="title">Miner Appreciator</p>
   <p>Eve University</p>
+  <p>Sasshole</p>
+  <p>Feared Raid Leader</p>
+  <p>For Psyience!</p>
   <a href="Contact" class="Button">Contact</a>
    </div>
   </div>
@@ -75,7 +82,7 @@
 </div>
 <div class="footer">
     <P>Have Questions?</P>
-  <a href="#">Contact Us</a>
+  <a href="Contact">Contact Us</a>
 </div>
 
 </body>
