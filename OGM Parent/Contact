@@ -2,7 +2,7 @@
 <html lang="en">
 <link rel="stylesheet" href="style.css">
 <head>
-<title>Outgearing Mechanics Pilots</title>
+<title>Outgearing Mechanics Home</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -13,17 +13,17 @@
   <a href="Home Page">Home</a> 
   <a href="Pilots">Pilots</a> 
   <a href="Ships">Ships</a>
-
+  <a href="Join Us">Join the Corporation</a>
 </div>
 
 <div class="content">
-  <h2>Pilots in the Corporation</h2>
+  <h2>Out Gearing Mechanics</h2>
   <p>A topnav, content and a footer.</p>
 </div>
 
 <div class="footer">
     <P>Have Questions?</P>
-  <a href="#">Contact Us</a>
+  <a href="Contact">Contact Us</a>
 </div>
 
 </body>

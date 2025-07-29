@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+<title>Outgearing Mechanics Pilots</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div class="topnav">
+  <a href="Home Page">Home</a> 
+  <a href="Pilots">Pilots</a> 
+  <a href="Ships">Ships</a>
+
+</div>
+
+<div class="content">
+  <h2>Pilots in the Corporation</h2>
+  
+  <div class="row">
+   <div class="column">
+  <div class="card">
+  <img src="Images\Bee.jpg" alt="Bee" style="width:100%">
+  <h1>Beewithanitch</h1>
+  <p class="title">Mining Operations Director</p>
+  <p>Eve University</p>
+  <a href="Contact" class="Button">Contact</a>
+   </div>
+  </div>
+  
+  <div class="row">
+   <div class="column">
+  <div class="card">
+  <img src="Images\Bee.jpg" alt="Bee" style="width:100%">
+  <h1>Beewithanitch</h1>
+  <p class="title">Mining Operations Director</p>
+  <p>Eve University</p>
+  <a href="Contact" class="Button">Contact</a>
+   </div>
+  </div>
+
+  <div class="row">
+   <div class="column">
+  <div class="card">
+  <img src="HTML\Images\Bee.jpg" alt="Bee" style="width:100%"></img>
+  <h1>Beewithanitch</h1>
+  <p class="title">Mining Operations Director</p>
+  <p>Eve University</p>
+  <a href="Contact" class="Button">Contact</a>
+   </div>
+  </div>
+
+</div>
+
+</div>
+<div class="footer">
+    <P>Have Questions?</P>
+  <a href="#">Contact Us</a>
+</div>
+
+</body>
+</html>
