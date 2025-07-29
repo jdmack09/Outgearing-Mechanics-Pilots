@@ -8,8 +8,10 @@
 </head>
 
 <body>
+  <body style="background-color: black;text-align: center;"></body>
 
 <div class="topnav">
+  <img align="left" src="Images\Logo.png" alt="Logo" width="3%">
   <a href="Home Page">Home</a> 
   <a href="Pilots">Pilots</a> 
   <a href="Ships">Ships</a>

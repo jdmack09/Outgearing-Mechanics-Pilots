@@ -8,12 +8,14 @@
 </head>
 
 <body>
+  <body style="background-color: black;text-align: center;"></body>
 
 <div class="topnav">
+  <img align="left" src="Images\Logo.png" alt="Logo" width="3%">
   <a href="Home Page">Home</a> 
   <a href="Pilots">Pilots</a> 
   <a href="Ships">Ships</a>
-
+  <a href="Join Us">Join the Corporation</a>
 </div>
 
 <div class="content">
@@ -22,10 +24,12 @@
   <div class="row">
    <div class="column">
   <div class="card">
-  <img src="Images\Bee.jpg" alt="Bee" style="width:100%">
-  <h1>Beewithanitch</h1>
-  <p class="title">Mining Operations Director</p>
+  <img src="Images\Alveras.jpg" alt="Alveras Enaka" style="width:100%">
+  <h1>Alveras </h1>
+  <p class="title">CEO and Founder</p>
   <p>Eve University</p>
+  <p>Heals +14's with undergeared Shaman</p>
+  <p>3000io No More, No Less</p>
   <a href="Contact" class="Button">Contact</a>
    </div>
   </div>
@@ -33,9 +37,23 @@
   <div class="row">
    <div class="column">
   <div class="card">
-  <img src="Images\Bee.jpg" alt="Bee" style="width:100%">
+  <img src="Images\Tivy.jpg" alt="Bee" style="width:100%">
+  <h1>Tivy</h1>
+  <p class="title">COO</p>
+  <p>Eve University</p>
+  <p>He's Mad!</p>
+  <p>Warlock Extrodinare</p>
+  <p>Worm Hole Resident</p>
+  <a href="Contact" class="Button">Contact</a>
+   </div>
+  </div>
+
+  <div class="row">
+   <div class="column">
+  <div class="card">
+  <img src="Images\Bee.jpg" alt="Bee" style="width:100%"></img>
   <h1>Beewithanitch</h1>
-  <p class="title">Mining Operations Director</p>
+  <p class="title">CFO</p>
   <p>Eve University</p>
   <a href="Contact" class="Button">Contact</a>
    </div>
@@ -44,9 +62,9 @@
   <div class="row">
    <div class="column">
   <div class="card">
-  <img src="HTML\Images\Bee.jpg" alt="Bee" style="width:100%"></img>
-  <h1>Beewithanitch</h1>
-  <p class="title">Mining Operations Director</p>
+  <img src="Images\Bee.jpg" alt="Bee" style="width:100%"></img>
+  <h1>ThatPsyGuy</h1>
+  <p class="title">CFO</p>
   <p>Eve University</p>
   <a href="Contact" class="Button">Contact</a>
    </div>
