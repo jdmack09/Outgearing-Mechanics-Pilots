@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+<title>Outgearing Mechanics Ships</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div class="topnav">
+  <a href="Home Page">Home</a> 
+  <a href="Pilots">Pilots</a> 
+  <a href="Ships">Ships</a>
+  <a href="Join Us">Join the Corporation</a>
+</div>
+
+<div class="content">
+  <h2>Out Gearing Mechanics</h2>
+  <p>A topnav, content and a footer.</p>
+</div>
+
+<div class="footer">
+    <P>Have Questions?</P>
+  <a href="#">Contact Us</a>
+</div>
+
+</body>
+</html>
