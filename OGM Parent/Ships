@@ -53,8 +53,7 @@
 
 
 <div class="footer">
-    <P>Have Questions?</P>
-  <a href="Contact">Contact Us</a>
+    <P>Have Questions? <a href="Contact">Contact Us</a></P>
 </div>
 
 </body>
