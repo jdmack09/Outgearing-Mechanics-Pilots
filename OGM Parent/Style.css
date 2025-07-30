@@ -43,7 +43,7 @@ body {
   position: fixed;
   left: 0px;
   bottom: 0px;
-  height: 11%;
+  height: 10%;
   width: 100%;
   color: rgb(10, 10, 10);
   background-color: #333;
@@ -118,3 +118,7 @@ button:hover, a:hover {
   opacity: 0.7;
 }
 
+.carousel-inner > .carousel-item > img {
+  width:640px;
+  height: 720px;
+}
