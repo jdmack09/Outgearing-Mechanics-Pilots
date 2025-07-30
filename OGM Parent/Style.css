@@ -77,10 +77,6 @@ body {
 }
 
 /*Pilot Profile Cards */
-.cards-wrapper {
-  display: flex;
-  justify-content: center;
-}
 .card {
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
   max-width: 300px;

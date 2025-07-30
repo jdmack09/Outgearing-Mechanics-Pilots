@@ -19,6 +19,7 @@
 </div>
 
 <div class="content">
+  <img align="center" src="Images\Logo.png" alt="Logo" width="10%">
   <h2>Out Gearing Mechanics</h2>
   <p>A topnav, content and a footer.</p>
 </div>
