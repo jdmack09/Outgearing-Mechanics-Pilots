@@ -7,15 +7,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
-  <body style="background-color: black;text-align: center;"></body>
+
+  <body style="background-color: black;text-align: center;">
 
 <div class="topnav">
   <img align="left" src="Images\Logo.png" alt="Logo" width="3%">
-  <a href="Home Page">Home</a> 
+  <a href="Home-Page">Home</a> 
   <a href="Pilots">Pilots</a> 
   <a href="Ships">Ships</a>
-  <a href="Join Us">Join</a>
+  <a href="Join-Us">Join</a>
   <a href="Contact">Question</a>
 </div>
 
@@ -25,12 +25,12 @@
   <form action="https://formspree.io/f/mqallbne" method="POST">
   <label>
     Your Character Name:<br>
-    <input type="character name" name="character name">
+    <input type="email" name="email">
   </label><br>
   <br>
   <label>
     Your Favorite ship:<br>
-    <input type="favorite ship" name="favorite ship">
+    <input type="email" name="email">
   </label><br>
   <br>
   <label>
