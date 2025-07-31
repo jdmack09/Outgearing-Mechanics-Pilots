@@ -15,9 +15,10 @@
 <div class="topnav">
   <img align="left" src="Images\Logo.png" alt="Logo" width="3%">
   <a href="Home Page">Home</a> 
-  <a href="Pilots">Pilots</a> 
-  <a href="Ships">Ships</a>
+  <a href="Pilots">Pilots</a>
+  <a href="Ships">Ships</a> 
   <a href="Join Us">Join</a>
+  <a href="Contact">Question</a>
 </div>
 
 
@@ -49,11 +50,6 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
-
-
-<div class="footer">
-    <P>Have Questions? <a href="Contact">Contact Us</a></P>
 </div>
 
 </body>

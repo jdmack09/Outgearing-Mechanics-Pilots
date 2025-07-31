@@ -16,15 +16,37 @@
   <a href="Pilots">Pilots</a> 
   <a href="Ships">Ships</a>
   <a href="Join Us">Join</a>
+  <a href="Contact">Question</a>
 </div>
 
 <div class="content">
   <h2>Out Gearing Mechanics</h2>
-  <p>A topnav, content and a footer.</p>
-</div>
-
-<div class="footer">
-    <P>Have Questions? <a href="Contact">Contact Us</a></P>
+  <p>Have Questions about anything, or just want to get in contact with one of us? Fill out the form below!</p>
+  <form action="https://formspree.io/f/xnnzzvnq" method="POST">
+    
+    <label>
+      Your Character Name<br>
+    <input type="Character Name" name="Character Name">
+    </label>
+    
+    <p>Who is your question for:</p>
+    <input type="radio" id="Alveras" name="who" value="Alveras">
+    <label for="Alveras">Alveras</label><br>
+    <input type="radio" id="Tivy" name="who" value="Tivy">
+    <label for="Alveras">Tivy</label><br>
+    <input type="radio" id="Bee" name="who" value="Bee">
+    <label for="Alveras">Bee</label><br>
+    <input type="radio" id="Psy" name="who" value="Psy">
+    <label for="Alveras">Psy</label><br>
+<br>
+    <label>
+    Your Question:<br>
+    <textarea name="Question"></textarea>
+  </label>
+<br>
+<br>
+  <button type="submit">Send!</button>
+  </form>
 </div>
 
 </body>

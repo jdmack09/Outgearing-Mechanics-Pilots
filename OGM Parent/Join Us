@@ -16,15 +16,14 @@
   <a href="Pilots">Pilots</a> 
   <a href="Ships">Ships</a>
   <a href="Join Us">Join</a>
+  <a href="Contact">Question</a>
 </div>
 
 <div class="content">
   <h2>Join the Outgearing Mechanics Corporation</h2>
 </div>
 
-<div class="footer">
-    <P>Have Questions? <a href="Contact">Contact Us</a></P>
-</div>
+
 
 </body>
 </html>

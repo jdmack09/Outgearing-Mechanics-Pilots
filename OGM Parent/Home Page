@@ -11,11 +11,12 @@
   <body style="background-color: black;text-align: center;"></body>
 
 <div class="topnav">
-  <img align="left" src="Images\Logo.png" alt="Logo" width="3%">
-  <a href="Home Page">Home</a> 
+  <img align="left" src="Images\Logo.png" alt="Logo" width="3%"> 
+  <a href="Home Page">Home</a>
   <a href="Pilots">Pilots</a> 
   <a href="Ships">Ships</a>
   <a href="Join Us">Join</a>
+  <a href="Contact">Question</a>
 </div>
 
 <div class="content">
@@ -24,9 +25,7 @@
   <p>A topnav, content and a footer.</p>
 </div>
 
-<div class="footer">
-    <P>Have Questions? <a href="Contact">Contact Us</a></P>
-</div>
+
 
 </body>
 </html>
