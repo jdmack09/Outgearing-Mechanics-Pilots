@@ -12,7 +12,6 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
-
 }
 
 /* Style the topnav links */
@@ -35,8 +34,8 @@ body {
 .topnav img{
  object-fit: cover;
  float: left;
+ height: 6%;
  width: 3%;
- height: 3%;
 }
 
 /* Style the content */
@@ -45,6 +44,14 @@ body {
   color: whitesmoke;
   background-color: #000000;
   padding: 10px;
+}
+
+/* Style for Content Images*/
+.content img{
+ object-fit: cover;
+ float: center;
+ width: 20%;
+ height: 20%;
 }
 
 /* Style the footer */
