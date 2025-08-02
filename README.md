@@ -9,3 +9,4 @@ Future implementations:
 3. Add a favorite fits page to show the favorite fit of pilots favorite ship
 4. Create and implement an API to automatically pull the fit data from Eve Online
 
+https://github.com/jdmack09/Outgearing-Mechanics-Pilots/tree/main
