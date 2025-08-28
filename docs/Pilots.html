@@ -3,18 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Outgearing Mechanics Pilots</title>
-
-  
-
-  <!-- Swiper CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
+  <title>3D Pilot Carousel</title>
   <style>
     body {
       background-color: black;
-      text-align: center;
       color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
     }
 
     .topnav {
@@ -39,31 +36,53 @@
 
     .content {
       margin-top: 40px;
+      text-align: center;
     }
 
-    .swiper {
-      width: 90%;
-      padding-bottom: 50px;
+    .carousel-container {
+      perspective: 1200px;
+      width: 100%;
+      height: 500px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 60px;
     }
 
-    .swiper-slide {
+    .carousel {
+      width: 300px;
+      height: 400px;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 1s;
+    }
+
+    .card {
+      position: absolute;
+      width: 280px;
+      height: 480px;
       background: #1a1a1a;
       border: 1px solid #0ff;
       border-radius: 10px;
-      text-align: center;
       padding: 20px;
-      max-width: 300px;
-      margin: auto;
+      box-sizing: border-box;
+      text-align: center;
+      transform-style: preserve-3d;
+      backface-visibility: hidden;
     }
 
     .card img {
       width: 100%;
+      height: 180px;
+      object-fit: cover;
       border-radius: 10px;
     }
 
     .title {
       color: #0ff;
       font-weight: bold;
+      margin-top: 10px;
     }
 
     .Button {
@@ -76,13 +95,34 @@
       border-radius: 5px;
     }
 
-    .swiper-button-next,
-    .swiper-button-prev {
+    .nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+      background: rgba(0, 255, 255, 0.2);
+      border: 1px solid #0ff;
       color: #0ff;
+      padding: 10px 15px;
+      cursor: pointer;
+      z-index: 2;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .nav-btn:hover {
+      background: rgba(0, 255, 255, 0.5);
+    }
+
+    .nav-left {
+      left: 5%;
+    }
+
+    .nav-right {
+      right: 5%;
     }
   </style>
 </head>
-
 <body>
 
 <div class="topnav">
@@ -97,88 +137,78 @@
 <div class="content">
   <h2>Pilots of the Corporation</h2>
 
-  <!-- Swiper container -->
-  <div class="swiper">
-    <div class="swiper-wrapper">
-
-      <!-- Slide 1 -->
-      <div class="swiper-slide card">
-        <img src="Images/Alveras.jpg" alt="Alveras Enaka" />
-        <h1>Alveras Enaka</h1>
+  <div class="carousel-container">
+    <div class="nav-btn nav-left" onclick="rotateCarousel(-1)">❮</div>
+    <div class="carousel" id="carousel">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="Images/Alveras.jpg" alt="Alveras Enaka">
+        <h3>Alveras Enaka</h3>
         <p class="title">Dad</p>
         <p>Eve University</p>
         <p>Heals +14's with undergeared Shaman</p>
-        <p>3000io No More, No Less</p>
         <p>Never came back with the Milk</p>
         <a href="Contact.html" class="Button">Contact</a>
       </div>
 
-      <!-- Slide 2 -->
-      <div class="swiper-slide card">
-        <img src="Images/Tivy.jpg" alt="Tivy" />
-        <h1>Tivy</h1>
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="Images/Tivy.jpg" alt="Tivy">
+        <h3>Tivy</h3>
         <p class="title">Full-Time Toker</p>
         <p>Eve University</p>
-        <p>He's Mad!</p>
-        <p>Is Free use</p>
+        <p>He's Mad! Is Free use</p>
         <p>Up in your Worm Hole</p>
         <a href="Contact.html" class="Button">Contact</a>
       </div>
 
-      <!-- Slide 3 -->
-      <div class="swiper-slide card">
-        <img src="Images/Bee.jpg" alt="Bee" />
-        <h1>Beewithanitch</h1>
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="Images/Bee.jpg" alt="Bee">
+        <h3>Beewithanitch</h3>
         <p class="title">Professional Degen</p>
         <p>Eve University</p>
-        <p>An Anchor</p>
         <p>Good at Calculations, Bad at Math</p>
         <p>Worst Paladin NA</p>
         <a href="Contact.html" class="Button">Contact</a>
       </div>
 
-      <!-- Slide 4 -->
-      <div class="swiper-slide card">
-        <img src="Images/Psy.jpg" alt="ThatPsyGuy" />
-        <h1>ThatPsyGuy</h1>
+      <!-- Card 4 -->
+      <div class="card">
+        <img src="Images/Psy.jpg" alt="ThatPsyGuy">
+        <h3>ThatPsyGuy</h3>
         <p class="title">Miner Appreciator</p>
         <p>Eve University</p>
         <p>Sasshole</p>
-        <p>Feared Raid Leader</p>
         <p>For Psyience!</p>
         <a href="Contact.html" class="Button">Contact</a>
       </div>
-
     </div>
-
-    <!-- Navigation buttons -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <div class="nav-btn nav-right" onclick="rotateCarousel(1)">❯</div>
   </div>
-
 </div>
 
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
 <script>
-  const swiper = new Swiper('.swiper', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    breakpoints: {
-      768: {
-        slidesPerView: 2
-      },
-      1024: {
-        slidesPerView: 3
-      }
+  const carousel = document.getElementById('carousel');
+  const cards = carousel.getElementsByClassName('card');
+  const cardCount = cards.length;
+  const angleStep = 360 / cardCount;
+  let angle = 0;
+
+  function positionCards() {
+    for (let i = 0; i < cardCount; i++) {
+      const cardAngle = i * angleStep;
+      cards[i].style.transform = `rotateY(${cardAngle}deg) translateZ(400px)`;
     }
-  });
+  }
+
+  function rotateCarousel(direction) {
+    angle += direction * angleStep;
+    carousel.style.transform = `rotateY(${-angle}deg)`;
+  }
+
+  // Initial positioning
+  positionCards();
 </script>
 
 </body>
